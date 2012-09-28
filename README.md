@@ -1,4 +1,4 @@
 scratch
 =======
 
-Use to share code with others
+Usee to share code with others
