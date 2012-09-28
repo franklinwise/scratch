@@ -1,0 +1,20 @@
+﻿/// <reference path="../Math.js/>
+/// <reference path="../libs/qunit-1.10.0.js/>
+/// <reference path="../libs/require.js/>
+/// <reference path="../main.js/>
+
+module("Require sanity check", {
+	setup: function () {
+
+	},
+	teardown: function () {
+		window.errors = null;
+	}
+});
+// Test the order of items added  
+test("It Runs", function () {
+	expect(1);
+	//var result = Math.add(1, 2);
+//	define(['../libs/qunit-1.10.0'], function (qunit) { });
+	ok(true);
+});
